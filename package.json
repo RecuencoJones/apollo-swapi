@@ -1,0 +1,13 @@
+{
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node -r esm src/index.js"
+  },
+  "dependencies": {
+    "apollo-datasource-rest": "0.7.0",
+    "apollo-server": "2.10.1",
+    "dotenv": "8.2.0",
+    "esm": "3.2.25",
+    "graphql": "14.6.0"
+  }
+}
